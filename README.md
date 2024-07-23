@@ -4,3 +4,4 @@ Resource: <br>
 https://snyk.io/blog/how-to-use-github-actions-environment-variables/
 
 18/07/24 forked by LDI
+23/07/24 update for testing GHA workflow
