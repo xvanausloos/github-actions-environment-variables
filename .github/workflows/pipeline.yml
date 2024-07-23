@@ -1,3 +1,6 @@
+env:
+  NAME: 'demo'
+
 name: Java CI with Maven
 
 on:
@@ -18,5 +21,7 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
+    - name: Print NAME env var
+      run: echo "hello $NAME"
     - name: Build with Maven
       run: mvn -B package --file pom.xml
